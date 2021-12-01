@@ -1,0 +1,118 @@
+*,
+::before,
+ ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+
+/*-- NAVIGATION --*/
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 70px;
+    background: #000;
+}
+
+nav ul {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/*-- ARTICLES EN VENTE--*/
+
+.info-title {
+    color: #000;
+    text-align: center;
+    font-size: 65px;
+    padding: 50px 20px 120px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.info-card {
+    width: 350px;
+    height: auto;
+    margin: 0 20px 80px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 3);
+    position: relative;
+}
+
+.container-info-photo img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.info-card h2 {
+    color: #333;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 5px;
+}
+
+.info-card p {
+    color: #333;
+    text-align: center;
+    font-size: 23px;
+    padding: 0 5px 15px;
+}
+
+
+/*-- bas de page--*/
+
+#service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.service-aide {
+    width: 30%;
+    text-align: center;
+    color: #f1f1f1;
+    margin: 50px 20px 70px;
+}
+
+.service-aide h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.service-aide p {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto 30px;
+}

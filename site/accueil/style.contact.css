@@ -1,0 +1,142 @@
+*,
+::before,
+ ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left, #4f4a4d, #615c61, #736e76, #84828c, #9596a3, #a0a2af, #abaebb, #b6bac7, #bfc1cb, #c7c8ce, #cfcfd2, #d6d6d6);
+}
+
+
+/*-- NAVIGATION --*/
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 70px;
+    background: #000;
+}
+
+nav ul {
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/*-- FORMULAIRE DE CONTACT --*/
+
+h1 {
+    text-align: center;
+}
+
+.form-style {
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.form-style input[type=submit],
+.form-style input[type=reset] {
+    background: #84828c;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+
+.form-style input[type=submit]:hover,
+.form-style input[type=reset]:hover {
+    background: #736e76;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-style .field-textarea {
+    height: 100px;
+}
+
+.form-style input[type=text],
+.form-style input[type=email],
+textarea {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #000000;
+    padding: 7px;
+    margin: 0px;
+    outline: none;
+}
+
+.form-style .long {
+    width: 100%;
+}
+
+.form-style input[type=text]:focus,
+.form-style input[type=email]:focus,
+.form-style textarea:focus {
+    -moz-box-shadow: 0 0 8px #363632;
+    -webkit-box-shadow: 0 0 8px #363632;
+    box-shadow: 0 0 8px #363632;
+    border: 1px solid #363632;
+}
+
+
+/*-- bas de page--*/
+
+#service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.service-aide {
+    width: 30%;
+    text-align: center;
+    color: #f1f1f1;
+    margin: 50px 20px 70px;
+}
+
+.service-aide h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.service-aide p {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto 30px;
+}
